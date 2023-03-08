@@ -1,0 +1,1 @@
+first script prints the current absolute directory path starting from the root using the command $(pwd)
