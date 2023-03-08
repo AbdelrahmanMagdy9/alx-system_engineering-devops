@@ -1,2 +1,2 @@
 #!/bin/bash
-ln /bin/ls ls
+echo ln /bin/ls ls
