@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a -m --group-directories-first --indicator-style=slash | tr ' ' ','
+ls -a -m --group-directories-first --indicator-style=slash
