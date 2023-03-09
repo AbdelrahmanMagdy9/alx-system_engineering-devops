@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name hello -user $USER -exec chown betty: {} \+
+chown betty: hello
