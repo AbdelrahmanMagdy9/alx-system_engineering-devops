@@ -1,2 +1,2 @@
 #!/bin/bash
-chown betty: hello
+if only[ $(stat -c '%U' hello) == $USER ]:chown betty: hello fi
