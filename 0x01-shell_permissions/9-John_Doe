@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod FA3 hello
+chmod 751 hello
