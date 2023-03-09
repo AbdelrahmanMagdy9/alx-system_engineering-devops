@@ -1,2 +1,2 @@
 #!/bin/bash
-chown betty: $([[ $(stat -c '%U' hello) == guillaume ]] && echo hello)
+if [ $(stat -c '%U' hello) = 'guillaume' ]:then chown betty: hello fi
