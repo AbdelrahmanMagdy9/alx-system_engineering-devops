@@ -1,2 +1,2 @@
 #!/bin/bash
-if only[ $(stat -c '%U' hello) == $USER ]:chown betty: hello fi
+chown --from=guillaume betty hello
