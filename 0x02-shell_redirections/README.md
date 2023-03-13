@@ -1,1 +1,1 @@
-scripts for redirection and more
+this script does scripting
